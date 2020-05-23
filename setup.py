@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="svm-kernels", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Alberto Benayas",
     author_email="benayas1@gmail.com",
     description="Orthogonal Polynomial Kernels for SVM",
