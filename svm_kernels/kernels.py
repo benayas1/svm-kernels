@@ -1,7 +1,5 @@
 import numpy as np
-from k_functions import k_chebyshev, k_hermite
-
-
+from .k_functions import k_chebyshev, k_hermite
 
 def g(k, **kwargs):
     def kernel(X, Z):

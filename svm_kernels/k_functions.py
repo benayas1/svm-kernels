@@ -1,5 +1,5 @@
 import numpy as np
-from polynomials import hermite_poly, chebyshev_poly
+from .polynomials import hermite_poly, chebyshev_poly
 
 def k_hermite(x, z, kwargs):
     degree = kwargs['degree']

@@ -8,7 +8,6 @@ def hermite_poly(x, degree):
     if degree > 1:
         return np.dot(x.T, hermite_poly(x, degree - 1)) - degree * hermite_poly(x, degree - 2)
 
-
 def chebyshev_poly(x, degree):
     if degree == 0:
         return 1
