@@ -4,5 +4,5 @@
 # Installation
 just run
 ```console
-user@bar:~$ pip install svm-kernel
+pip install svm-kernel
 ```
